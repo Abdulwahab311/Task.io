@@ -1,0 +1,45 @@
+body{
+    background-color: #c3b8b8;
+}
+.container{
+    text-align: center;
+    padding-top: 40px;
+    background-color: grey;
+    border-radius: 10px;
+    box-shadow: 0 0 0 10px #c3b8b8;
+}
+.container input{
+    padding: 5px;
+    width: 200px;
+}
+.container button{
+    background-color: green;
+    padding: 5px;
+    color: white;
+    margin: 10px;
+}
+.container h1{
+margin: 15px;
+text-decoration: underline rgb(207, 150, 37);
+text-underline-position: under;
+color: rgb(187, 0, 0);
+font-size: 40px;
+}
+.container input{
+    font-style: italic;
+    font-weight: 600;
+    font-size: 15px;
+    background-color: rgb(133, 112, 112);
+    color: black;
+}
+.container button:hover{
+    background: transparent;
+    transition: 0.3s ease-in;
+}
+.container input::placeholder{
+    color: black;
+}
+.container h1 span{
+    color: rgb(199, 189, 189);
+}
+
